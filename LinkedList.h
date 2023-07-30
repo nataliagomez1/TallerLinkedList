@@ -11,6 +11,8 @@
 
 template <class T>
 class LinkedList {
+    friend class Handling<T>;
+
 public:
     LinkedList();
 

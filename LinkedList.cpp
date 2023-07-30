@@ -5,6 +5,11 @@
 #include "LinkedList.h"
 
 template<class T>
+LinkedList<T>::LinkedList() {
+    head = last = NULL;
+}
+
+template<class T>
 std::vector<T> LinkedList<T>::getLinkedList(bool sw) {
     std::vector<T> vecOut;
     Node<T>* aux = sw ? head : last;
@@ -47,10 +52,7 @@ bool LinkedList<T>::isEmpty() {
     return head == NULL && last == NULL;
 }
 
-template<class T>
-LinkedList<T>::LinkedList() {
-    head = last = NULL;
-}
+
 
 template<class T>
 void LinkedList<T>::addSorted(T info) {
@@ -77,13 +79,17 @@ void LinkedList<T>::addSorted(T info) {
 
 template<class T>
 T LinkedList<T>::getLast() {
-    //validar el isempty
+    if (isEmpty()){
+        return NULL;
+    }
     return last->info;
 }
 
 template<class T>
 T LinkedList<T>::getFirst() {
-    //validar el isempty
+    if (isEmpty()){
+        return NULL;
+    }
     return head->info;
 }
 

@@ -8,10 +8,14 @@
 #include <cstdio>
 
 template<class T> class LinkedList;
+template<class T> class Handling;
+
 
 template<class T>
 class Node {
     friend class LinkedList<T>;
+    friend class Handling<T>;
+
 public:
     Node() {
         Node::next = NULL;
