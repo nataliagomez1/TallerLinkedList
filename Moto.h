@@ -13,7 +13,12 @@ class Moto {
 public:
     Moto();
 
-    Moto(const std::string &id, const std::string &marca, int cilindraje, double potencia, double capTanque);
+    Moto(const std::string &id, const std::string &marca, const std::string &modelo, int cilindraje, double potencia,
+         double capTanque);
+
+    const std::string &getModelo() const;
+
+    void setModelo(const std::string &modelo);
 
     const std::string &getId() const;
 
@@ -42,6 +47,7 @@ public:
 private:
     std::string id;
     std::string marca;
+    std::string modelo;
     int cilindraje;
     double potencia;
     double capTanque;

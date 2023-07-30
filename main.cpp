@@ -31,8 +31,11 @@ int main() {
     delete(list);
 
     LinkedList<Moto> *motos = new LinkedList<Moto>();
-    //string id, string marca, int cilindraje, double potencia, double captanque
-    motos->addSorted(Moto("1","honda",4,6.6,9.8));
+    //string id, string marca, string modelo, int cilindraje, double potencia, double captanque
+    motos->addLast(Moto("1","Honda","CBR600RR",599,118,18.1));
+    motos->addLast(Moto("2","Yamaha","YZF-R1",998,197,17));
+    motos->addLast(Moto("3","Ducati","Monster 821",821,109,16.5));
+
 
     for( Moto moto : motos->getLinkedList( true ) ){
         cout<<moto<<endl;

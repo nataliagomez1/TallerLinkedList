@@ -67,6 +67,12 @@ build CMakeFiles/TallerIndividual.dir/Moto.cpp.obj: CXX_COMPILER__TallerIndividu
   OBJECT_DIR = CMakeFiles\TallerIndividual.dir
   OBJECT_FILE_DIR = CMakeFiles\TallerIndividual.dir
 
+build CMakeFiles/TallerIndividual.dir/Handling.cpp.obj: CXX_COMPILER__TallerIndividual_Debug C$:/Users/Gomez$ Garzon/CLionProjects/TallerIndividual/Handling.cpp || cmake_object_order_depends_target_TallerIndividual
+  DEP_FILE = CMakeFiles\TallerIndividual.dir\Handling.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TallerIndividual.dir
+  OBJECT_FILE_DIR = CMakeFiles\TallerIndividual.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TallerIndividual
@@ -75,7 +81,7 @@ build CMakeFiles/TallerIndividual.dir/Moto.cpp.obj: CXX_COMPILER__TallerIndividu
 #############################################
 # Link the executable TallerIndividual.exe
 
-build TallerIndividual.exe: CXX_EXECUTABLE_LINKER__TallerIndividual_Debug CMakeFiles/TallerIndividual.dir/main.cpp.obj CMakeFiles/TallerIndividual.dir/LinkedList.cpp.obj CMakeFiles/TallerIndividual.dir/Moto.cpp.obj
+build TallerIndividual.exe: CXX_EXECUTABLE_LINKER__TallerIndividual_Debug CMakeFiles/TallerIndividual.dir/main.cpp.obj CMakeFiles/TallerIndividual.dir/LinkedList.cpp.obj CMakeFiles/TallerIndividual.dir/Moto.cpp.obj CMakeFiles/TallerIndividual.dir/Handling.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TallerIndividual.dir
