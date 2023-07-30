@@ -1,0 +1,11 @@
+# ninja log v5
+1	353	7123893216483896	CMakeFiles/TallerIndividual.dir/LinkedList.cpp.obj	66495934d647052a
+9	666	7123893219606303	CMakeFiles/TallerIndividual.dir/Moto.cpp.obj	d5da28b3d3ccb24b
+18	775	7123893220702652	CMakeFiles/TallerIndividual.dir/main.cpp.obj	39806ae22398641e
+775	1156	7123893224325395	TallerIndividual.exe	284aa2c15ea86ff5
+6	591	7123894466584469	CMakeFiles/TallerIndividual.dir/main.cpp.obj	39806ae22398641e
+592	723	7123894467856800	TallerIndividual.exe	284aa2c15ea86ff5
+16	790	7123898282921027	CMakeFiles/TallerIndividual.dir/main.cpp.obj	39806ae22398641e
+790	925	7123898284250749	TallerIndividual.exe	284aa2c15ea86ff5
+8	684	7123898736562157	CMakeFiles/TallerIndividual.dir/main.cpp.obj	39806ae22398641e
+685	803	7123898737710366	TallerIndividual.exe	284aa2c15ea86ff5

@@ -1,0 +1,3 @@
+C:/Users/Gomez Garzon/CLionProjects/TallerIndividual/cmake-build-debug/CMakeFiles/TallerIndividual.dir
+C:/Users/Gomez Garzon/CLionProjects/TallerIndividual/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gomez Garzon/CLionProjects/TallerIndividual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
