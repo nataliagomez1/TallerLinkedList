@@ -33,7 +33,6 @@ int main() {
     LinkedList<Moto> *motos = new LinkedList<Moto>();
     //string id, string marca, int cilindraje, double potencia, double captanque
     motos->addSorted(Moto("1","honda",4,6.6,9.8));
-    //motos->addSorted(Moto("1","honda",4,6.6,9.8));
 
     for( Moto moto : motos->getLinkedList( true ) ){
         cout<<moto<<endl;
