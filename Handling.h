@@ -13,7 +13,7 @@
 #include "LinkedList.cpp"
 
 template <typename T>
-class Handling: public LinkedList<T>{
+class Handling{
 public:
     Handling();
 
@@ -31,27 +31,6 @@ private:
 
 };
 
-template<typename T>
-bool Handling<T>::infoExist(std::string) {
-    return false;
-}
-
-template<typename T>
-bool Handling<T>::validData(T) {
-    return false;
-}
-
-template<typename T>
-bool Handling<T>::nodeExist(std::string id) {
-    Node<T>* iterator = head;
-    return false;
-}
-
-template<typename T>
-Handling<T>::Handling() {
-
-
-}
 
 
 #endif //TALLERINDIVIDUAL_HANDLING_H
